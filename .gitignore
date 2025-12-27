@@ -127,3 +127,6 @@ build/
 Thumbs.db
 .DS_Store
 
+# Progress tracking (not for git)
+PROGRESS.md
+
