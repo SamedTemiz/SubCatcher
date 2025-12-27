@@ -1,0 +1,4 @@
+---
+alwaysApply: true
+---
+Bu proje tamamen gizlilik odaklıdır. Hiçbir veri (bildirim veya görüntü) dış sunucuya gönderilmez, tüm işlemler cihaz üzerinde (on-device) yapılmalıdır. Kod yazarken bu güvenlik standartlarını koru.
