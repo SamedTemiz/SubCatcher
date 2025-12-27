@@ -1,4 +1,4 @@
-package com.samedtemiz.subcatcher
+package com.samedtemiz.subcatcher.presentation.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,8 +11,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.samedtemiz.subcatcher.ui.theme.SubCatcherTheme
+import com.samedtemiz.subcatcher.presentation.ui.theme.SubCatcherTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,3 +47,4 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
